@@ -1,0 +1,19 @@
+2018-10-12 11:53:45 INFO  Log:24 - Demo1 :: TestScript is Start
+2018-10-12 11:53:45 INFO  Log:12 - ------------------------------
+2018-10-12 11:53:45 INFO  Log:13 - Mehtod# 'gotoHomePage' :: is Start
+2018-10-12 11:54:17 INFO  Log:24 - Navigated URL is :http://newtours.demoaut.com/
+2018-10-12 11:54:17 INFO  Log:18 - Mehtod# gotoHomePage :: is End
+2018-10-12 11:54:17 INFO  Log:19 - ------------------------------
+2018-10-12 11:54:23 INFO  Log:24 - **********************************************************************
+2018-10-12 11:54:23 ERROR Log:34 - Step 1:: FAIL: :  Navigated to Home Page. Verify the HomePage ::: Home page is not dis notplayed
+2018-10-12 11:54:23 INFO  Log:24 - **********************************************************************
+2018-10-12 11:54:23 INFO  Log:12 - ------------------------------
+2018-10-12 11:54:23 INFO  Log:13 - Mehtod# 'userSignIn' :: is Start
+2018-10-12 11:54:23 INFO  Log:24 - Signing in with login credentials: User id: mercury, Password: mercury
+2018-10-12 11:54:53 INFO  Log:18 - Mehtod# 'userSignIn' :: is End
+2018-10-12 11:54:53 INFO  Log:19 - ------------------------------
+2018-10-12 11:54:53 INFO  Log:24 - **********************************************************************
+2018-10-12 11:54:53 ERROR Log:34 - Step 2:: FAIL: :  Navigated to SignIn page. Verify the SignIn page ::: SignIn is not Successfully
+2018-10-12 11:54:53 INFO  Log:24 - **********************************************************************
+2018-10-12 11:54:54 INFO  Log:24 - Demo1 :: TestScript is End
+2018-10-12 11:54:54 INFO  Log:24 - ===================================================================

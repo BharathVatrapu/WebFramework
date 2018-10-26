@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="tests" thread-count="10" verbose="1">
+    <!-- PROD, QA1 -->
+    <parameter name="environment" value="PROD"/>
+    <!-- DESKTOP, MOBILE -->
+    <parameter name="platform" value="DESKTOP"/>
+    <!-- WEB, HEADLESS,  -->
+    <parameter name="service" value="WEB"/>
+    <!--  Chrome, Firefox/ff, Safari,  IE/Internet Explorer/IE11 EDGE -->
+
+
+
+
+    <listeners>
+        <listener class-name="com.demoproject.listeners.TestListener"/>
+    </listeners>
+    <groups>
+        <run>
+            <include name="Registration" />
+            <exclude name="SignIn" />
+        </run>
+    </groups>
+    <test name="Test-1">
+        <parameter name="browser" value="Chrome"/>
+
+        <classes>
+            <!-- SignIn Suite -->
+            <class name="com.demoproject.testsuites.web.demo.signin.Demo1" />
+
+            <!-- Registration Suite -->
+            <!--<class name="com.testProject.testsuites.web.demo.signin.verifySignInTestFail" />-->
+        </classes>
+    </test>
+
+
+</suite>
+

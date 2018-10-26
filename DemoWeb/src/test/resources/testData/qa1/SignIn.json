@@ -1,0 +1,8 @@
+{
+  "verifySignInTest": {
+    "almTestCaseName": "verifySignInTest",
+    "EmailAddress": "autotester01@example.com",
+    "Password": "@lt12345"
+  }
+
+}
